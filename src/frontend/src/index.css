@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #1B4D3E; /* Verde oscuro seguro para la vista */
+  --color-brand-green-light: #2E8B57;
+  --color-brand-black: #121212;
+  --color-brand-white: #F5F5F5; /* Blanco no puro para evitar deslumbramiento */
+  --color-brand-yellow: #FFD700; /* Para alertas o estados importantes */
+}
+
+/* Estilos base para accesibilidad */
+body {
+  @apply bg-gray-50 text-gray-900 font-sans antialiased;
+}
+
+/* Clases utilitarias para botones accesibles */
+.btn-primary {
+  @apply w-full py-4 px-6 bg-[#1B4D3E] text-white text-xl font-bold rounded-2xl shadow-lg transform transition active:scale-95 focus:outline-none focus:ring-4 focus:ring-[#2E8B57] flex items-center justify-center gap-3;
+}
+
+.btn-secondary {
+  @apply w-full py-4 px-6 bg-white border-2 border-[#1B4D3E] text-[#1B4D3E] text-xl font-bold rounded-2xl shadow-md transform transition active:scale-95 focus:outline-none focus:ring-4 focus:ring-gray-300;
+}
+
+.input-accessible {
+  @apply w-full p-4 text-lg border-2 border-gray-300 rounded-xl focus:border-[#1B4D3E] focus:ring-2 focus:ring-[#1B4D3E] placeholder-gray-500 bg-white text-gray-900;
+}
+
+.card-accessible {
+  @apply bg-white p-6 rounded-2xl shadow-md border-l-8 border-[#1B4D3E];
+}
