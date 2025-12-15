@@ -167,12 +167,6 @@ Tecnología en Desarrollo de Software
 
 ---
 
-## 📄 Licencia
-
-Este proyecto fue desarrollado con fines **académicos**. Su uso y distribución están sujetos a las políticas de la Universidad del Valle.
-
----
-
 ⭐ *Proyecto académico enfocado en accesibilidad, inclusión y diseño de software centrado en el usuario.*
 
 
