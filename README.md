@@ -103,33 +103,37 @@ Desarrollar una solución de transporte accesible que garantice **inclusión, se
 
 ---
 
-## 🗂️ Estructura del Proyecto
-
-```text
 proyecto-app/
 │
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   └── config/
-│
-├── frontend/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   └── assets/
-│
-├── database/
-│   ├── postgres/
-│   └── nosql/
-│
 ├── docs/
-│   └── Documentacion completa EyesRoute.pdf
+│   ├── DOCUMENTACIÓN DE API.docx
+│   ├── Documentos del proyecto/
+│   ├── GUÍA DE INSTALACIÓN.docx
+│   ├── Indice EYESROUTE.docx
+│   ├── MANUAL DE USUARIO.docx
+│   └── Readme.docx
+│
+├── src/
+│   ├── backend/
+│   │   ├── database/
+│   │   ├── src/
+│   │   ├── .env.example
+│   │   ├── app.js
+│   │   ├── package.json
+│   │   └── package-lock.json
+│   │
+│   └── frontend/
+│       ├── public/
+│       ├── src/
+│       ├── README.md
+│       ├── eslint.config.js
+│       ├── index.html
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── postcss.config.js
+│       └── tailwind.config.js
 │
 └── README.md
-```
 
 ---
 
